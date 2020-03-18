@@ -39,4 +39,4 @@ Here are the steps needed to get things running.
 * Install OpenCV using the tutorial provided.
 * Setup your environment as it will protect your main python install. Again, use the tutorial provided.
 * Enable the camera by going into Menu > Preferences > Raspberry Pi Configuration > Interfaces > Camera > Enable
-* Then go into a terminal (make sure you activate your environment) and type `cd Ball-Tracker-Robot`. Go into the directory and then type `python pi_robot_alarm.py`. Then the camera will turn on and you can start. Get a ball that is light green or you can paint your own using a foam ball. The robot should now move when it sees the ball. Make sure you use a neutral colored floor.
+* Then go into a terminal (make sure you activate your environment) and type `cd Ball-Tracker-Robot`. Go into the directory and then type `python pi_robot_alarm.py --picamera`. Then the camera will turn on and you can start. Get a ball that is light green or you can paint your own using a foam ball. The robot should now move when it sees the ball. Make sure you use a neutral colored floor.
